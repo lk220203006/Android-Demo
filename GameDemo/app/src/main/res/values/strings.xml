@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">雷神</string>
+    <string name="language">你所掌握的语言</string>
+    <string name="chinese">中文</string>
+    <string name="jap">日文</string>
+    <string name="en">英文</string>
+    <string name="itc">斜体</string>
+    <string name="bold">粗体</string>
+    <string name="amount">充值金额</string>
+</resources>

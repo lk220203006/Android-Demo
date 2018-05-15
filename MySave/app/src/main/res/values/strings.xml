@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">手机安全卫士</string>
+    <string name="textview_text">手机安全卫士</string>
+    <string name="username">用户名</string>
+    <string name="balance">余额</string>
+    <string name="welcome">欢迎光临</string>
+    <string name="password">密码</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="register">注册界面</string>
+</resources>
