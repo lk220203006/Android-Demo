@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="test">this is test</string>
+    <string-array name="arraytest">
+        <item>aaa</item>
+        <item>bbb</item>
+        <item>ccc</item>
+    </string-array>
+    <string name="username">User:</string>
+    <string name="password">PassWord:</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="pre">Previous</string>
+    <string name="next">Next</string>
+</resources>

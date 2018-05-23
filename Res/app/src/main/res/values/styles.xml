@@ -8,9 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="gemoption">
-        <item name="android:textColor">#550055</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">10pt</item>
+    <style name="styletest">
+        <item name="android:textColor">#ff00ff</item>
     </style>
+    <style name="styletest2">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
 </resources>
