@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflate = new MenuInflater(this);
-        inflate.inflate(R.menu.menu,menu);
+        inflate.inflate(R.menu.menu2,menu);
 
 //        menu.add(Menu.NONE,0x001,1,"AAA");
 //        menu.add(Menu.NONE,0x002,3,"BBB");
@@ -44,16 +44,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         Log.i("TEST","onPrepareOptionsMenu");
-        if (menu != null) {
-            if (menu.getClass() == MenuBuilder.class) {
-                try {
-                    Method m = menu.getClass().getDeclaredMethod("setOptionalIconsVisible", Boolean.TYPE);
-                    m.setAccessible(true);
-                    m.invoke(menu, true);
-                } catch (Exception e) {
-                }
-            }
-        }
+//        if (menu != null) {
+//            if (menu.getClass() == MenuBuilder.class) {
+//                try {
+//                    Method m = menu.getClass().getDeclaredMethod("setOptionalIconsVisible", Boolean.TYPE);
+//                    m.setAccessible(true);
+//                    m.invoke(menu, true);
+//                } catch (Exception e) {
+//                }
+//            }
+//        }
         return super.onPrepareOptionsMenu(menu);
     }
 }
